@@ -41,6 +41,9 @@ backend.add(
 // search plugin
 backend.add(import('@backstage/plugin-search-backend/alpha'));
 
+// scaffolder plugin
+backend.add(import('@backstage/plugin-scaffolder-backend-module-github'));
+
 // search engine
 // See https://backstage.io/docs/features/search/search-engines
 backend.add(import('@backstage/plugin-search-backend-module-pg/alpha'));

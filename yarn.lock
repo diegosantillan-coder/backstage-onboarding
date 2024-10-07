@@ -5056,7 +5056,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@backstage/plugin-techdocs@npm:^1.10.9":
+"@backstage/plugin-techdocs@npm:^1.10.10":
   version: 1.10.10
   resolution: "@backstage/plugin-techdocs@npm:1.10.10"
   dependencies:
@@ -6530,6 +6530,31 @@ __metadata:
 "@internal/backstage-plugin-primer-plugin@npm:^0.1.0, @internal/backstage-plugin-primer-plugin@workspace:plugins/primer-plugin":
   version: 0.0.0-use.local
   resolution: "@internal/backstage-plugin-primer-plugin@workspace:plugins/primer-plugin"
+  dependencies:
+    "@backstage/cli": "npm:^0.27.1"
+    "@backstage/core-app-api": "npm:^1.15.0"
+    "@backstage/core-components": "npm:^0.15.0"
+    "@backstage/core-plugin-api": "npm:^1.9.4"
+    "@backstage/dev-utils": "npm:^1.1.0"
+    "@backstage/test-utils": "npm:^1.6.0"
+    "@backstage/theme": "npm:^0.5.7"
+    "@material-ui/core": "npm:^4.9.13"
+    "@material-ui/icons": "npm:^4.9.1"
+    "@material-ui/lab": "npm:^4.0.0-alpha.61"
+    "@testing-library/jest-dom": "npm:^6.0.0"
+    "@testing-library/react": "npm:^14.0.0"
+    "@testing-library/user-event": "npm:^14.0.0"
+    msw: "npm:^1.0.0"
+    react: "npm:^16.13.1 || ^17.0.0 || ^18.0.0"
+    react-use: "npm:^17.2.4"
+  peerDependencies:
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+  languageName: unknown
+  linkType: soft
+
+"@internal/backstage-plugin-sw-cat@npm:^0.1.0, @internal/backstage-plugin-sw-cat@workspace:plugins/sw-cat":
+  version: 0.0.0-use.local
+  resolution: "@internal/backstage-plugin-sw-cat@workspace:plugins/sw-cat"
   dependencies:
     "@backstage/cli": "npm:^0.27.1"
     "@backstage/core-app-api": "npm:^1.15.0"
@@ -13360,7 +13385,7 @@ __metadata:
     "@backstage/plugin-scaffolder": "npm:^1.25.0"
     "@backstage/plugin-search": "npm:^1.4.16"
     "@backstage/plugin-search-react": "npm:^1.8.0"
-    "@backstage/plugin-techdocs": "npm:^1.10.9"
+    "@backstage/plugin-techdocs": "npm:^1.10.10"
     "@backstage/plugin-techdocs-module-addons-contrib": "npm:^1.1.14"
     "@backstage/plugin-techdocs-react": "npm:^1.2.8"
     "@backstage/plugin-user-settings": "npm:^0.8.12"
@@ -13370,6 +13395,7 @@ __metadata:
     "@emotion/styled": "npm:^11.13.0"
     "@internal/backstage-plugin-home": "npm:^0.1.0"
     "@internal/backstage-plugin-primer-plugin": "npm:^0.1.0"
+    "@internal/backstage-plugin-sw-cat": "npm:^0.1.0"
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@mui/material": "npm:^6.1.2"
@@ -14000,6 +14026,7 @@ __metadata:
     "@backstage/plugin-permission-node": "npm:^0.8.3"
     "@backstage/plugin-proxy-backend": "npm:^0.5.6"
     "@backstage/plugin-scaffolder-backend": "npm:^1.25.0"
+    "@backstage/plugin-scaffolder-backend-module-github": "npm:^0.5.0"
     "@backstage/plugin-search-backend": "npm:^1.5.17"
     "@backstage/plugin-search-backend-module-catalog": "npm:^0.2.2"
     "@backstage/plugin-search-backend-module-pg": "npm:^0.5.35"

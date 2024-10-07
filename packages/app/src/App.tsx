@@ -39,6 +39,7 @@ import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/
 import { githubAuthApiRef } from '@backstage/core-plugin-api';
 import { PrimerPluginPage } from '@internal/backstage-plugin-primer-plugin';
 import { HomePage } from '@internal/backstage-plugin-home';
+import { SwCatPage } from '@internal/backstage-plugin-sw-cat';
 
 const app = createApp({
   apis,
@@ -114,6 +115,7 @@ const routes = (
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
     <Route path="/primer-plugin" element={<PrimerPluginPage />} />
     <Route path="/home" element={<HomePage />} />
+    <Route path="/sw-cat" element={<SwCatPage />} />
   </FlatRoutes>
 );
 
